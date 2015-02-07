@@ -1,0 +1,32 @@
+@media only screen and (min-width: 64.063em) {
+    .test-form {
+        min-width:300px;
+    }
+}
+
+
+.searchfield {
+    left: 50px;
+    position: relative;
+    /*width: 980px;*/
+}
+
+body {
+    background-color: #FAE5C7;
+}
+
+.accordion-navigation {
+    background-color: #FAE5C7;
+}
+
+
+.accordion .accordion-navigation > .content.active, .accordion dd > .content.active {
+    display: block;
+    background: #FAE5C7;
+    border: 1px solid black;
+    /*-moz-border-image: url("img/borderImage.png") 30 30 repeat;*/
+    -moz-border-image:url("/img/borderImage.png") 30 30 repeat; /* Old Firefox */
+    -webkit-border-image:url("/img/borderImage.png") 30 30 repeat; /* Safari */
+    -o-border-image:url("/img/borderImage.png") 30 30 repeat; /* Opera */
+    border-image:url("/img/borderImage.png") 30 30 repeat;
+}
