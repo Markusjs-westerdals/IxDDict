@@ -1,0 +1,46 @@
+body {
+  background-color: #FAE5C7;
+  font-family: menlo;
+  width: 100%;
+  overflow: hidden; }
+
+@font-face {
+  font-family: menlo;
+  src: url(Menlo-Regular.ttf);
+  font-weight: normal; }
+.terms {
+  list-style-type: none;
+  width: 960px;
+  margin: auto;
+  position: relative; }
+
+.terms li {
+  -webkit-columns: 200px 4;
+  /* Chrome, Safari, Opera */
+  -moz-columns: 200px 4;
+  /* Firefox */
+  columns: 200px 4;
+  display: block; }
+
+.terms li #first {
+  margin-top: 0px; }
+
+.begreper {
+  width: 100%;
+  margin: 100px; }
+
+.begreper * {
+  margin: 10px;
+  width: 333px;
+  float: left; }
+
+.column1 {
+  background-color: red; }
+
+.column2 {
+  background-color: blue; }
+
+.column3 {
+  background-color: green; }
+
+/*# sourceMappingURL=style.css.map */
